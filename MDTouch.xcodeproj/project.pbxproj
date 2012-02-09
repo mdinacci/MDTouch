@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A905CDEA14E3AB8000129EC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A905CDE914E3AB8000129EC4 /* Foundation.framework */; };
+		A905CDF014E3AB8000129EC4 /* MDTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = A905CDEF14E3AB8000129EC4 /* MDTouch.m */; };
+		A905CDF814E3AB8000129EC4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A905CDF714E3AB8000129EC4 /* SenTestingKit.framework */; };
+		A905CDFA14E3AB8000129EC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A905CDF914E3AB8000129EC4 /* UIKit.framework */; };
+		A905CDFB14E3AB8000129EC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A905CDE914E3AB8000129EC4 /* Foundation.framework */; };
+		A905CDFE14E3AB8000129EC4 /* libMDTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A905CDE614E3AB8000129EC4 /* libMDTouch.a */; };
+		A905CE0414E3AB8000129EC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A905CE0214E3AB8000129EC4 /* InfoPlist.strings */; };
+		A905CE0714E3AB8000129EC4 /* MDTouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A905CE0614E3AB8000129EC4 /* MDTouchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A905CDFC14E3AB8000129EC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A905CDDD14E3AB8000129EC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A905CDE514E3AB8000129EC4;
+			remoteInfo = MDTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A905CDE614E3AB8000129EC4 /* libMDTouch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMDTouch.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A905CDE914E3AB8000129EC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A905CDED14E3AB8000129EC4 /* MDTouch-Prefix.pch */ = {isa = PBXFileReference; path = "MDTouch-Prefix.pch"; sourceTree = "<group>"; };
+		A905CDEE14E3AB8000129EC4 /* MDTouch.h */ = {isa = PBXFileReference; path = MDTouch.h; sourceTree = "<group>"; };
+		A905CDEF14E3AB8000129EC4 /* MDTouch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDTouch.m; sourceTree = "<group>"; };
+		A905CDF614E3AB8000129EC4 /* MDTouchTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDTouchTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A905CDF714E3AB8000129EC4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A905CDF914E3AB8000129EC4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A905CE0114E3AB8000129EC4 /* MDTouchTests-Info.plist */ = {isa = PBXFileReference; path = "MDTouchTests-Info.plist"; sourceTree = "<group>"; };
+		A905CE0314E3AB8000129EC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A905CE0514E3AB8000129EC4 /* MDTouchTests.h */ = {isa = PBXFileReference; path = MDTouchTests.h; sourceTree = "<group>"; };
+		A905CE0614E3AB8000129EC4 /* MDTouchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDTouchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A905CDE314E3AB8000129EC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A905CDEA14E3AB8000129EC4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A905CDF214E3AB8000129EC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A905CDF814E3AB8000129EC4 /* SenTestingKit.framework in Frameworks */,
+				A905CDFA14E3AB8000129EC4 /* UIKit.framework in Frameworks */,
+				A905CDFB14E3AB8000129EC4 /* Foundation.framework in Frameworks */,
+				A905CDFE14E3AB8000129EC4 /* libMDTouch.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A905CDDB14E3AB8000129EC4 = {
+			isa = PBXGroup;
+			children = (
+				A905CDEB14E3AB8000129EC4 /* MDTouch */,
+				A905CDFF14E3AB8000129EC4 /* MDTouchTests */,
+				A905CDE814E3AB8000129EC4 /* Frameworks */,
+				A905CDE714E3AB8000129EC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A905CDE714E3AB8000129EC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A905CDE614E3AB8000129EC4 /* libMDTouch.a */,
+				A905CDF614E3AB8000129EC4 /* MDTouchTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A905CDE814E3AB8000129EC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A905CDE914E3AB8000129EC4 /* Foundation.framework */,
+				A905CDF714E3AB8000129EC4 /* SenTestingKit.framework */,
+				A905CDF914E3AB8000129EC4 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A905CDEB14E3AB8000129EC4 /* MDTouch */ = {
+			isa = PBXGroup;
+			children = (
+				A905CDEE14E3AB8000129EC4 /* MDTouch.h */,
+				A905CDEF14E3AB8000129EC4 /* MDTouch.m */,
+				A905CDEC14E3AB8000129EC4 /* Supporting Files */,
+			);
+			path = MDTouch;
+			sourceTree = "<group>";
+		};
+		A905CDEC14E3AB8000129EC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A905CDED14E3AB8000129EC4 /* MDTouch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A905CDFF14E3AB8000129EC4 /* MDTouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				A905CE0514E3AB8000129EC4 /* MDTouchTests.h */,
+				A905CE0614E3AB8000129EC4 /* MDTouchTests.m */,
+				A905CE0014E3AB8000129EC4 /* Supporting Files */,
+			);
+			path = MDTouchTests;
+			sourceTree = "<group>";
+		};
+		A905CE0014E3AB8000129EC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A905CE0114E3AB8000129EC4 /* MDTouchTests-Info.plist */,
+				A905CE0214E3AB8000129EC4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A905CDE414E3AB8000129EC4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A905CDE514E3AB8000129EC4 /* MDTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A905CE0A14E3AB8000129EC4 /* Build configuration list for PBXNativeTarget "MDTouch" */;
+			buildPhases = (
+				A905CDE214E3AB8000129EC4 /* Sources */,
+				A905CDE314E3AB8000129EC4 /* Frameworks */,
+				A905CDE414E3AB8000129EC4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDTouch;
+			productName = MDTouch;
+			productReference = A905CDE614E3AB8000129EC4 /* libMDTouch.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A905CDF514E3AB8000129EC4 /* MDTouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A905CE0D14E3AB8000129EC4 /* Build configuration list for PBXNativeTarget "MDTouchTests" */;
+			buildPhases = (
+				A905CDF114E3AB8000129EC4 /* Sources */,
+				A905CDF214E3AB8000129EC4 /* Frameworks */,
+				A905CDF314E3AB8000129EC4 /* Resources */,
+				A905CDF414E3AB8000129EC4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A905CDFD14E3AB8000129EC4 /* PBXTargetDependency */,
+			);
+			name = MDTouchTests;
+			productName = MDTouchTests;
+			productReference = A905CDF614E3AB8000129EC4 /* MDTouchTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A905CDDD14E3AB8000129EC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Marco Dinacci";
+			};
+			buildConfigurationList = A905CDE014E3AB8000129EC4 /* Build configuration list for PBXProject "MDTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A905CDDB14E3AB8000129EC4;
+			productRefGroup = A905CDE714E3AB8000129EC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A905CDE514E3AB8000129EC4 /* MDTouch */,
+				A905CDF514E3AB8000129EC4 /* MDTouchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A905CDF314E3AB8000129EC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A905CE0414E3AB8000129EC4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A905CDF414E3AB8000129EC4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A905CDE214E3AB8000129EC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A905CDF014E3AB8000129EC4 /* MDTouch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A905CDF114E3AB8000129EC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A905CE0714E3AB8000129EC4 /* MDTouchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A905CDFD14E3AB8000129EC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A905CDE514E3AB8000129EC4 /* MDTouch */;
+			targetProxy = A905CDFC14E3AB8000129EC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A905CE0214E3AB8000129EC4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A905CE0314E3AB8000129EC4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A905CE0814E3AB8000129EC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A905CE0914E3AB8000129EC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A905CE0B14E3AB8000129EC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MDTouch.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDTouch/MDTouch-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A905CE0C14E3AB8000129EC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MDTouch.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDTouch/MDTouch-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A905CE0E14E3AB8000129EC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDTouch/MDTouch-Prefix.pch";
+				INFOPLIST_FILE = "MDTouchTests/MDTouchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A905CE0F14E3AB8000129EC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDTouch/MDTouch-Prefix.pch";
+				INFOPLIST_FILE = "MDTouchTests/MDTouchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A905CDE014E3AB8000129EC4 /* Build configuration list for PBXProject "MDTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A905CE0814E3AB8000129EC4 /* Debug */,
+				A905CE0914E3AB8000129EC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A905CE0A14E3AB8000129EC4 /* Build configuration list for PBXNativeTarget "MDTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A905CE0B14E3AB8000129EC4 /* Debug */,
+				A905CE0C14E3AB8000129EC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A905CE0D14E3AB8000129EC4 /* Build configuration list for PBXNativeTarget "MDTouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A905CE0E14E3AB8000129EC4 /* Debug */,
+				A905CE0F14E3AB8000129EC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A905CDDD14E3AB8000129EC4 /* Project object */;
+}

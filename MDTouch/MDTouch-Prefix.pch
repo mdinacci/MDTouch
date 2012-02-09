@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'MDTouch' target in the 'MDTouch' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
