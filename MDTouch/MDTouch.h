@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface MDTouch : NSObject
-
-@end
+// Better logging
+#ifdef DEBUG
+#define ULOG(fmt, ...) NSLog((@"%s:%d| " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#define ULOG(...)
+#endif

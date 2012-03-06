@@ -8,13 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		A905CDEA14E3AB8000129EC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A905CDE914E3AB8000129EC4 /* Foundation.framework */; };
-		A905CDF014E3AB8000129EC4 /* MDTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = A905CDEF14E3AB8000129EC4 /* MDTouch.m */; };
 		A905CDF814E3AB8000129EC4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A905CDF714E3AB8000129EC4 /* SenTestingKit.framework */; };
 		A905CDFA14E3AB8000129EC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A905CDF914E3AB8000129EC4 /* UIKit.framework */; };
 		A905CDFB14E3AB8000129EC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A905CDE914E3AB8000129EC4 /* Foundation.framework */; };
 		A905CDFE14E3AB8000129EC4 /* libMDTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A905CDE614E3AB8000129EC4 /* libMDTouch.a */; };
 		A905CE0414E3AB8000129EC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A905CE0214E3AB8000129EC4 /* InfoPlist.strings */; };
 		A905CE0714E3AB8000129EC4 /* MDTouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A905CE0614E3AB8000129EC4 /* MDTouchTests.m */; };
+		A905CE1414E3ABCC00129EC4 /* UIView+Screenshot.h in Headers */ = {isa = PBXBuildFile; fileRef = A905CE1014E3ABCC00129EC4 /* UIView+Screenshot.h */; };
+		A905CE1514E3ABCC00129EC4 /* UIView+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = A905CE1114E3ABCC00129EC4 /* UIView+Screenshot.m */; };
+		A905CE1614E3ABCC00129EC4 /* UIView+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = A905CE1214E3ABCC00129EC4 /* UIView+Utils.h */; };
+		A905CE1714E3ABCC00129EC4 /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = A905CE1314E3ABCC00129EC4 /* UIView+Utils.m */; };
+		A905CE2614E3B80A00129EC4 /* UINavigationController+Animations.h in Headers */ = {isa = PBXBuildFile; fileRef = A905CE2414E3B80A00129EC4 /* UINavigationController+Animations.h */; };
+		A905CE2714E3B80A00129EC4 /* UINavigationController+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = A905CE2514E3B80A00129EC4 /* UINavigationController+Animations.m */; };
+		A905CE2A14E3B82900129EC4 /* NSURL+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = A905CE2814E3B82900129EC4 /* NSURL+Utils.h */; };
+		A905CE2B14E3B82900129EC4 /* NSURL+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = A905CE2914E3B82900129EC4 /* NSURL+Utils.m */; };
+		A905CE2E14E3B83700129EC4 /* CALayer+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = A905CE2C14E3B83700129EC4 /* CALayer+Utils.h */; };
+		A905CE2F14E3B83700129EC4 /* CALayer+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = A905CE2D14E3B83700129EC4 /* CALayer+Utils.m */; };
+		A905CE3814E3B86800129EC4 /* AVAudioRecorder+Player.h in Headers */ = {isa = PBXBuildFile; fileRef = A905CE3014E3B86700129EC4 /* AVAudioRecorder+Player.h */; };
+		A905CE3914E3B86800129EC4 /* AVAudioRecorder+Player.m in Sources */ = {isa = PBXBuildFile; fileRef = A905CE3114E3B86700129EC4 /* AVAudioRecorder+Player.m */; };
+		A905CE3A14E3B86800129EC4 /* NSString+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = A905CE3214E3B86700129EC4 /* NSString+Utils.h */; };
+		A905CE3B14E3B86800129EC4 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = A905CE3314E3B86700129EC4 /* NSString+Utils.m */; };
+		A905CE3C14E3B86800129EC4 /* UIImage+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = A905CE3414E3B86700129EC4 /* UIImage+Utils.h */; };
+		A905CE3D14E3B86800129EC4 /* UIImage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = A905CE3514E3B86700129EC4 /* UIImage+Utils.m */; };
+		A905CE3E14E3B86800129EC4 /* UIView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = A905CE3614E3B86800129EC4 /* UIView+Hierarchy.h */; };
+		A905CE3F14E3B86800129EC4 /* UIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = A905CE3714E3B86800129EC4 /* UIView+Hierarchy.m */; };
+		A9BA2436150699D8004D14EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BA2435150699D8004D14EC /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +48,34 @@
 /* Begin PBXFileReference section */
 		A905CDE614E3AB8000129EC4 /* libMDTouch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMDTouch.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A905CDE914E3AB8000129EC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		A905CDED14E3AB8000129EC4 /* MDTouch-Prefix.pch */ = {isa = PBXFileReference; path = "MDTouch-Prefix.pch"; sourceTree = "<group>"; };
-		A905CDEE14E3AB8000129EC4 /* MDTouch.h */ = {isa = PBXFileReference; path = MDTouch.h; sourceTree = "<group>"; };
-		A905CDEF14E3AB8000129EC4 /* MDTouch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDTouch.m; sourceTree = "<group>"; };
+		A905CDED14E3AB8000129EC4 /* MDTouch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MDTouch-Prefix.pch"; sourceTree = "<group>"; };
+		A905CDEE14E3AB8000129EC4 /* MDTouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDTouch.h; sourceTree = "<group>"; };
 		A905CDF614E3AB8000129EC4 /* MDTouchTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDTouchTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A905CDF714E3AB8000129EC4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		A905CDF914E3AB8000129EC4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		A905CE0114E3AB8000129EC4 /* MDTouchTests-Info.plist */ = {isa = PBXFileReference; path = "MDTouchTests-Info.plist"; sourceTree = "<group>"; };
+		A905CE0114E3AB8000129EC4 /* MDTouchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MDTouchTests-Info.plist"; sourceTree = "<group>"; };
 		A905CE0314E3AB8000129EC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A905CE0514E3AB8000129EC4 /* MDTouchTests.h */ = {isa = PBXFileReference; path = MDTouchTests.h; sourceTree = "<group>"; };
+		A905CE0514E3AB8000129EC4 /* MDTouchTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDTouchTests.h; sourceTree = "<group>"; };
 		A905CE0614E3AB8000129EC4 /* MDTouchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDTouchTests.m; sourceTree = "<group>"; };
+		A905CE1014E3ABCC00129EC4 /* UIView+Screenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Screenshot.h"; sourceTree = "<group>"; };
+		A905CE1114E3ABCC00129EC4 /* UIView+Screenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Screenshot.m"; sourceTree = "<group>"; };
+		A905CE1214E3ABCC00129EC4 /* UIView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Utils.h"; sourceTree = "<group>"; };
+		A905CE1314E3ABCC00129EC4 /* UIView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utils.m"; sourceTree = "<group>"; };
+		A905CE2414E3B80A00129EC4 /* UINavigationController+Animations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "UINavigationController+Animations.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		A905CE2514E3B80A00129EC4 /* UINavigationController+Animations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "UINavigationController+Animations.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		A905CE2814E3B82900129EC4 /* NSURL+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "NSURL+Utils.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		A905CE2914E3B82900129EC4 /* NSURL+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "NSURL+Utils.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		A905CE2C14E3B83700129EC4 /* CALayer+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Utils.h"; sourceTree = "<group>"; };
+		A905CE2D14E3B83700129EC4 /* CALayer+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Utils.m"; sourceTree = "<group>"; };
+		A905CE3014E3B86700129EC4 /* AVAudioRecorder+Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "AVAudioRecorder+Player.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		A905CE3114E3B86700129EC4 /* AVAudioRecorder+Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "AVAudioRecorder+Player.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		A905CE3214E3B86700129EC4 /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "NSString+Utils.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		A905CE3314E3B86700129EC4 /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "NSString+Utils.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		A905CE3414E3B86700129EC4 /* UIImage+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "UIImage+Utils.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		A905CE3514E3B86700129EC4 /* UIImage+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "UIImage+Utils.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		A905CE3614E3B86800129EC4 /* UIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Hierarchy.h"; sourceTree = "<group>"; };
+		A905CE3714E3B86800129EC4 /* UIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Hierarchy.m"; sourceTree = "<group>"; };
+		A9BA2435150699D8004D14EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9BA2436150699D8004D14EC /* UIKit.framework in Frameworks */,
 				A905CDEA14E3AB8000129EC4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -87,6 +124,7 @@
 		A905CDE814E3AB8000129EC4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A9BA2435150699D8004D14EC /* UIKit.framework */,
 				A905CDE914E3AB8000129EC4 /* Foundation.framework */,
 				A905CDF714E3AB8000129EC4 /* SenTestingKit.framework */,
 				A905CDF914E3AB8000129EC4 /* UIKit.framework */,
@@ -98,7 +136,24 @@
 			isa = PBXGroup;
 			children = (
 				A905CDEE14E3AB8000129EC4 /* MDTouch.h */,
-				A905CDEF14E3AB8000129EC4 /* MDTouch.m */,
+				A905CE2C14E3B83700129EC4 /* CALayer+Utils.h */,
+				A905CE2D14E3B83700129EC4 /* CALayer+Utils.m */,
+				A905CE2814E3B82900129EC4 /* NSURL+Utils.h */,
+				A905CE2914E3B82900129EC4 /* NSURL+Utils.m */,
+				A905CE2414E3B80A00129EC4 /* UINavigationController+Animations.h */,
+				A905CE2514E3B80A00129EC4 /* UINavigationController+Animations.m */,
+				A905CE1014E3ABCC00129EC4 /* UIView+Screenshot.h */,
+				A905CE1114E3ABCC00129EC4 /* UIView+Screenshot.m */,
+				A905CE1214E3ABCC00129EC4 /* UIView+Utils.h */,
+				A905CE1314E3ABCC00129EC4 /* UIView+Utils.m */,
+				A905CE3014E3B86700129EC4 /* AVAudioRecorder+Player.h */,
+				A905CE3114E3B86700129EC4 /* AVAudioRecorder+Player.m */,
+				A905CE3214E3B86700129EC4 /* NSString+Utils.h */,
+				A905CE3314E3B86700129EC4 /* NSString+Utils.m */,
+				A905CE3414E3B86700129EC4 /* UIImage+Utils.h */,
+				A905CE3514E3B86700129EC4 /* UIImage+Utils.m */,
+				A905CE3614E3B86800129EC4 /* UIView+Hierarchy.h */,
+				A905CE3714E3B86800129EC4 /* UIView+Hierarchy.m */,
 				A905CDEC14E3AB8000129EC4 /* Supporting Files */,
 			);
 			path = MDTouch;
@@ -138,6 +193,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A905CE1414E3ABCC00129EC4 /* UIView+Screenshot.h in Headers */,
+				A905CE1614E3ABCC00129EC4 /* UIView+Utils.h in Headers */,
+				A905CE2614E3B80A00129EC4 /* UINavigationController+Animations.h in Headers */,
+				A905CE2A14E3B82900129EC4 /* NSURL+Utils.h in Headers */,
+				A905CE2E14E3B83700129EC4 /* CALayer+Utils.h in Headers */,
+				A905CE3814E3B86800129EC4 /* AVAudioRecorder+Player.h in Headers */,
+				A905CE3A14E3B86800129EC4 /* NSString+Utils.h in Headers */,
+				A905CE3C14E3B86800129EC4 /* UIImage+Utils.h in Headers */,
+				A905CE3E14E3B86800129EC4 /* UIView+Hierarchy.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +303,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A905CDF014E3AB8000129EC4 /* MDTouch.m in Sources */,
+				A905CE1514E3ABCC00129EC4 /* UIView+Screenshot.m in Sources */,
+				A905CE1714E3ABCC00129EC4 /* UIView+Utils.m in Sources */,
+				A905CE2714E3B80A00129EC4 /* UINavigationController+Animations.m in Sources */,
+				A905CE2B14E3B82900129EC4 /* NSURL+Utils.m in Sources */,
+				A905CE2F14E3B83700129EC4 /* CALayer+Utils.m in Sources */,
+				A905CE3914E3B86800129EC4 /* AVAudioRecorder+Player.m in Sources */,
+				A905CE3B14E3B86800129EC4 /* NSString+Utils.m in Sources */,
+				A905CE3D14E3B86800129EC4 /* UIImage+Utils.m in Sources */,
+				A905CE3F14E3B86800129EC4 /* UIView+Hierarchy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +364,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -309,7 +381,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -318,24 +390,28 @@
 		A905CE0B14E3AB8000129EC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				DSTROOT = /tmp/MDTouch.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MDTouch/MDTouch-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		A905CE0C14E3AB8000129EC4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				DSTROOT = /tmp/MDTouch.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MDTouch/MDTouch-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -388,6 +464,7 @@
 				A905CE0C14E3AB8000129EC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A905CE0D14E3AB8000129EC4 /* Build configuration list for PBXNativeTarget "MDTouchTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +473,7 @@
 				A905CE0F14E3AB8000129EC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
