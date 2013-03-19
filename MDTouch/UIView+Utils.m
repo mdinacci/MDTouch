@@ -10,6 +10,7 @@
 
 @implementation UIView (UIView_Utils)
 
+/* Print a view hierarchy */
 + (void) dumpViews:(UIView *)view withText:(NSString *)text andIndent:(NSString *)indent;
 {
     Class cl = [self class];
@@ -35,7 +36,7 @@
 - (void)slideFromParent:(UIView *)parentView up:(BOOL)up
 {
     int yOffset = self.center.y;
-    const int movementDistance = yOffset;
+    const int movementDistance = yOffset - self.bounds.size.height;
     const float movementDuration = 0.3f;
     
     int movement = (up ? -movementDistance : movementDistance);

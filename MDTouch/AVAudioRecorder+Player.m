@@ -11,16 +11,6 @@
 
 @implementation AVAudioRecorder (Player)
 
-- (id)init
-{
-    self = [super init];
-    if (self) {
-        // Initialization code here.
-    }
-    
-    return self;
-}
-
 - (void)play
 {
     NSError *error = nil;

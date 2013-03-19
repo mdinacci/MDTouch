@@ -6,7 +6,6 @@
 //  Copyright 2011 Marco Dinacci Ltd. All rights reserved.
 //
 
-
 #import <ImageIO/ImageIO.h>
 #import <MobileCoreServices/UTCoreTypes.h>
 #import "UIImage+Utils.h"
@@ -49,7 +48,7 @@
     return thumbnail;
 }
 
-- (BOOL)saveJPEGToPath:(NSString *)path withQuality:(CGFloat)quality
+- (BOOL)saveAsJpegWithName:(NSString *)path withQuality:(float)quality;
 {
     BOOL success = [UIImageJPEGRepresentation(self, quality) writeToFile:path atomically:YES];
     return success;

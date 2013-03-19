@@ -32,7 +32,25 @@
 		A905CE3D14E3B86800129EC4 /* UIImage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = A905CE3514E3B86700129EC4 /* UIImage+Utils.m */; };
 		A905CE3E14E3B86800129EC4 /* UIView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = A905CE3614E3B86800129EC4 /* UIView+Hierarchy.h */; };
 		A905CE3F14E3B86800129EC4 /* UIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = A905CE3714E3B86800129EC4 /* UIView+Hierarchy.m */; };
+		A9A8BA2016F84DF400D88422 /* MDLink.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A8BA1E16F84DF400D88422 /* MDLink.h */; };
+		A9A8BA2116F84DF400D88422 /* MDLink.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A8BA1F16F84DF400D88422 /* MDLink.m */; };
+		A9A8BA2616F84EBD00D88422 /* MDScrollingMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A8BA2316F84EBD00D88422 /* MDScrollingMenu.h */; };
+		A9A8BA2716F84EBD00D88422 /* MDScrollingMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A8BA2416F84EBD00D88422 /* MDScrollingMenu.m */; };
+		A9A8BA2A16F84EE800D88422 /* MDAutoCompletionTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A8BA2816F84EE800D88422 /* MDAutoCompletionTextField.h */; };
+		A9A8BA2B16F84EE800D88422 /* MDAutoCompletionTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A8BA2916F84EE800D88422 /* MDAutoCompletionTextField.m */; };
+		A9A8BA3016F84F0900D88422 /* MDDropDownBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A8BA2E16F84F0900D88422 /* MDDropDownBarButtonItem.h */; };
+		A9A8BA3116F84F0900D88422 /* MDDropDownBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A8BA2F16F84F0900D88422 /* MDDropDownBarButtonItem.m */; };
+		A9A8BA3616F84FAA00D88422 /* UIView+Animations.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A8BA3216F84FA900D88422 /* UIView+Animations.h */; };
+		A9A8BA3716F84FAA00D88422 /* UIView+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A8BA3316F84FA900D88422 /* UIView+Animations.m */; };
+		A9A8BA3816F84FAA00D88422 /* UIView+Dim.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A8BA3416F84FA900D88422 /* UIView+Dim.h */; };
+		A9A8BA3916F84FAA00D88422 /* UIView+Dim.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A8BA3516F84FA900D88422 /* UIView+Dim.m */; };
+		A9A8BA3B16F84FDA00D88422 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A8BA3A16F84FD900D88422 /* QuartzCore.framework */; };
 		A9BA2436150699D8004D14EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BA2435150699D8004D14EC /* UIKit.framework */; };
+		A9C163E416F5E21700C2FFF4 /* MDMapViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A9C163E016F5E21700C2FFF4 /* MDMapViewController.h */; };
+		A9C163E516F5E21700C2FFF4 /* MDMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C163E116F5E21700C2FFF4 /* MDMapViewController.m */; };
+		A9C163E616F5E21700C2FFF4 /* MDMapPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = A9C163E216F5E21700C2FFF4 /* MDMapPoint.h */; };
+		A9C163E716F5E21700C2FFF4 /* MDMapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C163E316F5E21700C2FFF4 /* MDMapPoint.m */; };
+		D99F5027145D4A62AE41D5C5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6772AE72BEC414297080FCA /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +64,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A49E184E46E6436B809079BA /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		A905CDE614E3AB8000129EC4 /* libMDTouch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMDTouch.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A905CDE914E3AB8000129EC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A905CDED14E3AB8000129EC4 /* MDTouch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MDTouch-Prefix.pch"; sourceTree = "<group>"; };
@@ -75,7 +94,27 @@
 		A905CE3514E3B86700129EC4 /* UIImage+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "UIImage+Utils.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		A905CE3614E3B86800129EC4 /* UIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Hierarchy.h"; sourceTree = "<group>"; };
 		A905CE3714E3B86800129EC4 /* UIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Hierarchy.m"; sourceTree = "<group>"; };
+		A9A8BA1E16F84DF400D88422 /* MDLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDLink.h; sourceTree = "<group>"; };
+		A9A8BA1F16F84DF400D88422 /* MDLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDLink.m; sourceTree = "<group>"; };
+		A9A8BA2316F84EBD00D88422 /* MDScrollingMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDScrollingMenu.h; sourceTree = "<group>"; };
+		A9A8BA2416F84EBD00D88422 /* MDScrollingMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDScrollingMenu.m; sourceTree = "<group>"; };
+		A9A8BA2516F84EBD00D88422 /* menu_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_bg.png; sourceTree = "<group>"; };
+		A9A8BA2816F84EE800D88422 /* MDAutoCompletionTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDAutoCompletionTextField.h; sourceTree = "<group>"; };
+		A9A8BA2916F84EE800D88422 /* MDAutoCompletionTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDAutoCompletionTextField.m; sourceTree = "<group>"; };
+		A9A8BA2D16F84F0900D88422 /* drop_down_menu_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drop_down_menu_icon.png; sourceTree = "<group>"; };
+		A9A8BA2E16F84F0900D88422 /* MDDropDownBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDDropDownBarButtonItem.h; sourceTree = "<group>"; };
+		A9A8BA2F16F84F0900D88422 /* MDDropDownBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDDropDownBarButtonItem.m; sourceTree = "<group>"; };
+		A9A8BA3216F84FA900D88422 /* UIView+Animations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animations.h"; sourceTree = "<group>"; };
+		A9A8BA3316F84FA900D88422 /* UIView+Animations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animations.m"; sourceTree = "<group>"; };
+		A9A8BA3416F84FA900D88422 /* UIView+Dim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Dim.h"; sourceTree = "<group>"; };
+		A9A8BA3516F84FA900D88422 /* UIView+Dim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Dim.m"; sourceTree = "<group>"; };
+		A9A8BA3A16F84FD900D88422 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		A9BA2435150699D8004D14EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A9C163E016F5E21700C2FFF4 /* MDMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMapViewController.h; sourceTree = "<group>"; };
+		A9C163E116F5E21700C2FFF4 /* MDMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMapViewController.m; sourceTree = "<group>"; };
+		A9C163E216F5E21700C2FFF4 /* MDMapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMapPoint.h; sourceTree = "<group>"; };
+		A9C163E316F5E21700C2FFF4 /* MDMapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMapPoint.m; sourceTree = "<group>"; };
+		E6772AE72BEC414297080FCA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +122,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9A8BA3B16F84FDA00D88422 /* QuartzCore.framework in Frameworks */,
 				A9BA2436150699D8004D14EC /* UIKit.framework in Frameworks */,
 				A905CDEA14E3AB8000129EC4 /* Foundation.framework in Frameworks */,
+				D99F5027145D4A62AE41D5C5 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +150,7 @@
 				A905CDFF14E3AB8000129EC4 /* MDTouchTests */,
 				A905CDE814E3AB8000129EC4 /* Frameworks */,
 				A905CDE714E3AB8000129EC4 /* Products */,
+				A49E184E46E6436B809079BA /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,10 +166,12 @@
 		A905CDE814E3AB8000129EC4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A9A8BA3A16F84FD900D88422 /* QuartzCore.framework */,
 				A9BA2435150699D8004D14EC /* UIKit.framework */,
 				A905CDE914E3AB8000129EC4 /* Foundation.framework */,
 				A905CDF714E3AB8000129EC4 /* SenTestingKit.framework */,
 				A905CDF914E3AB8000129EC4 /* UIKit.framework */,
+				E6772AE72BEC414297080FCA /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -135,6 +179,16 @@
 		A905CDEB14E3AB8000129EC4 /* MDTouch */ = {
 			isa = PBXGroup;
 			children = (
+				A9A8BA2216F84EBD00D88422 /* MDScrollingMenu */,
+				A9A8BA2C16F84F0900D88422 /* MDDropDownMenuBarButtonItem */,
+				A9A8BA1E16F84DF400D88422 /* MDLink.h */,
+				A9A8BA1F16F84DF400D88422 /* MDLink.m */,
+				A9A8BA2816F84EE800D88422 /* MDAutoCompletionTextField.h */,
+				A9A8BA2916F84EE800D88422 /* MDAutoCompletionTextField.m */,
+				A9C163E016F5E21700C2FFF4 /* MDMapViewController.h */,
+				A9C163E116F5E21700C2FFF4 /* MDMapViewController.m */,
+				A9C163E216F5E21700C2FFF4 /* MDMapPoint.h */,
+				A9C163E316F5E21700C2FFF4 /* MDMapPoint.m */,
 				A905CDEE14E3AB8000129EC4 /* MDTouch.h */,
 				A905CE2C14E3B83700129EC4 /* CALayer+Utils.h */,
 				A905CE2D14E3B83700129EC4 /* CALayer+Utils.m */,
@@ -142,6 +196,10 @@
 				A905CE2914E3B82900129EC4 /* NSURL+Utils.m */,
 				A905CE2414E3B80A00129EC4 /* UINavigationController+Animations.h */,
 				A905CE2514E3B80A00129EC4 /* UINavigationController+Animations.m */,
+				A9A8BA3216F84FA900D88422 /* UIView+Animations.h */,
+				A9A8BA3316F84FA900D88422 /* UIView+Animations.m */,
+				A9A8BA3416F84FA900D88422 /* UIView+Dim.h */,
+				A9A8BA3516F84FA900D88422 /* UIView+Dim.m */,
 				A905CE1014E3ABCC00129EC4 /* UIView+Screenshot.h */,
 				A905CE1114E3ABCC00129EC4 /* UIView+Screenshot.m */,
 				A905CE1214E3ABCC00129EC4 /* UIView+Utils.h */,
@@ -186,6 +244,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A9A8BA2216F84EBD00D88422 /* MDScrollingMenu */ = {
+			isa = PBXGroup;
+			children = (
+				A9A8BA2316F84EBD00D88422 /* MDScrollingMenu.h */,
+				A9A8BA2416F84EBD00D88422 /* MDScrollingMenu.m */,
+				A9A8BA2516F84EBD00D88422 /* menu_bg.png */,
+			);
+			path = MDScrollingMenu;
+			sourceTree = "<group>";
+		};
+		A9A8BA2C16F84F0900D88422 /* MDDropDownMenuBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				A9A8BA2D16F84F0900D88422 /* drop_down_menu_icon.png */,
+				A9A8BA2E16F84F0900D88422 /* MDDropDownBarButtonItem.h */,
+				A9A8BA2F16F84F0900D88422 /* MDDropDownBarButtonItem.m */,
+			);
+			path = MDDropDownMenuBarButtonItem;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -202,6 +280,14 @@
 				A905CE3A14E3B86800129EC4 /* NSString+Utils.h in Headers */,
 				A905CE3C14E3B86800129EC4 /* UIImage+Utils.h in Headers */,
 				A905CE3E14E3B86800129EC4 /* UIView+Hierarchy.h in Headers */,
+				A9C163E416F5E21700C2FFF4 /* MDMapViewController.h in Headers */,
+				A9C163E616F5E21700C2FFF4 /* MDMapPoint.h in Headers */,
+				A9A8BA2016F84DF400D88422 /* MDLink.h in Headers */,
+				A9A8BA2616F84EBD00D88422 /* MDScrollingMenu.h in Headers */,
+				A9A8BA2A16F84EE800D88422 /* MDAutoCompletionTextField.h in Headers */,
+				A9A8BA3016F84F0900D88422 /* MDDropDownBarButtonItem.h in Headers */,
+				A9A8BA3616F84FAA00D88422 /* UIView+Animations.h in Headers */,
+				A9A8BA3816F84FAA00D88422 /* UIView+Dim.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +301,7 @@
 				A905CDE214E3AB8000129EC4 /* Sources */,
 				A905CDE314E3AB8000129EC4 /* Frameworks */,
 				A905CDE414E3AB8000129EC4 /* Headers */,
+				4D575D93E2F54C7A8E8EFDD3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -283,6 +370,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4D575D93E2F54C7A8E8EFDD3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
 		A905CDF414E3AB8000129EC4 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -312,6 +413,14 @@
 				A905CE3B14E3B86800129EC4 /* NSString+Utils.m in Sources */,
 				A905CE3D14E3B86800129EC4 /* UIImage+Utils.m in Sources */,
 				A905CE3F14E3B86800129EC4 /* UIView+Hierarchy.m in Sources */,
+				A9C163E516F5E21700C2FFF4 /* MDMapViewController.m in Sources */,
+				A9C163E716F5E21700C2FFF4 /* MDMapPoint.m in Sources */,
+				A9A8BA2116F84DF400D88422 /* MDLink.m in Sources */,
+				A9A8BA2716F84EBD00D88422 /* MDScrollingMenu.m in Sources */,
+				A9A8BA2B16F84EE800D88422 /* MDAutoCompletionTextField.m in Sources */,
+				A9A8BA3116F84F0900D88422 /* MDDropDownBarButtonItem.m in Sources */,
+				A9A8BA3716F84FAA00D88422 /* UIView+Animations.m in Sources */,
+				A9A8BA3916F84FAA00D88422 /* UIView+Dim.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,12 +498,13 @@
 		};
 		A905CE0B14E3AB8000129EC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A49E184E46E6436B809079BA /* Pods.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
 				DSTROOT = /tmp/MDTouch.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MDTouch/MDTouch-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -403,12 +513,13 @@
 		};
 		A905CE0C14E3AB8000129EC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A49E184E46E6436B809079BA /* Pods.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
 				DSTROOT = /tmp/MDTouch.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MDTouch/MDTouch-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";

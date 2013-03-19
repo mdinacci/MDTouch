@@ -12,6 +12,6 @@
 
 - (UIImage *)thumbnailWithSize:(CGSize)size;
 - (UIImage *)thumbnailWithWidth:(NSInteger)width andHeight:(NSInteger)height;
-- (BOOL)saveJPEGToPath:(NSString *)path withQuality:(CGFloat)quality;
+- (BOOL)saveAsJpegWithName:(NSString *)path withQuality:(float)quality;
 
 @end

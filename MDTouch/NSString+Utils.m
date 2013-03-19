@@ -1,6 +1,6 @@
 //
 //  NSString+Utils.m
-//  Marco Dinacci
+//  MDTouch
 //
 //  Created by Marco Dinacci on 04/10/2011.
 //  Copyright 2011 Marco Dinacci Ltd. All rights reserved.

@@ -10,7 +10,6 @@
 
 @interface UIView (UIView_Utils)
 
-// Handy methods to print a view hierarchy 
 + (void)dumpViews:(UIView *)view withText:(NSString *)text andIndent:(NSString *)indent;
 
 - (void)slideFromParent:(UIView *)parentView up:(BOOL)up;
