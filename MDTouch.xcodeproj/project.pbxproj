@@ -32,6 +32,8 @@
 		A905CE3D14E3B86800129EC4 /* UIImage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = A905CE3514E3B86700129EC4 /* UIImage+Utils.m */; };
 		A905CE3E14E3B86800129EC4 /* UIView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = A905CE3614E3B86800129EC4 /* UIView+Hierarchy.h */; };
 		A905CE3F14E3B86800129EC4 /* UIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = A905CE3714E3B86800129EC4 /* UIView+Hierarchy.m */; };
+		A99AC1D516F994CE00979382 /* NSDate+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = A99AC1D316F994CE00979382 /* NSDate+Utils.h */; };
+		A99AC1D616F994CE00979382 /* NSDate+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = A99AC1D416F994CE00979382 /* NSDate+Utils.m */; };
 		A9A8BA2016F84DF400D88422 /* MDLink.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A8BA1E16F84DF400D88422 /* MDLink.h */; };
 		A9A8BA2116F84DF400D88422 /* MDLink.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A8BA1F16F84DF400D88422 /* MDLink.m */; };
 		A9A8BA2616F84EBD00D88422 /* MDScrollingMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A8BA2316F84EBD00D88422 /* MDScrollingMenu.h */; };
@@ -94,6 +96,8 @@
 		A905CE3514E3B86700129EC4 /* UIImage+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "UIImage+Utils.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		A905CE3614E3B86800129EC4 /* UIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Hierarchy.h"; sourceTree = "<group>"; };
 		A905CE3714E3B86800129EC4 /* UIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Hierarchy.m"; sourceTree = "<group>"; };
+		A99AC1D316F994CE00979382 /* NSDate+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utils.h"; sourceTree = "<group>"; };
+		A99AC1D416F994CE00979382 /* NSDate+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utils.m"; sourceTree = "<group>"; };
 		A9A8BA1E16F84DF400D88422 /* MDLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDLink.h; sourceTree = "<group>"; };
 		A9A8BA1F16F84DF400D88422 /* MDLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDLink.m; sourceTree = "<group>"; };
 		A9A8BA2316F84EBD00D88422 /* MDScrollingMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDScrollingMenu.h; sourceTree = "<group>"; };
@@ -194,6 +198,8 @@
 				A905CE2D14E3B83700129EC4 /* CALayer+Utils.m */,
 				A905CE2814E3B82900129EC4 /* NSURL+Utils.h */,
 				A905CE2914E3B82900129EC4 /* NSURL+Utils.m */,
+				A99AC1D316F994CE00979382 /* NSDate+Utils.h */,
+				A99AC1D416F994CE00979382 /* NSDate+Utils.m */,
 				A905CE2414E3B80A00129EC4 /* UINavigationController+Animations.h */,
 				A905CE2514E3B80A00129EC4 /* UINavigationController+Animations.m */,
 				A9A8BA3216F84FA900D88422 /* UIView+Animations.h */,
@@ -288,6 +294,7 @@
 				A9A8BA3016F84F0900D88422 /* MDDropDownBarButtonItem.h in Headers */,
 				A9A8BA3616F84FAA00D88422 /* UIView+Animations.h in Headers */,
 				A9A8BA3816F84FAA00D88422 /* UIView+Dim.h in Headers */,
+				A99AC1D516F994CE00979382 /* NSDate+Utils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +428,7 @@
 				A9A8BA3116F84F0900D88422 /* MDDropDownBarButtonItem.m in Sources */,
 				A9A8BA3716F84FAA00D88422 /* UIView+Animations.m in Sources */,
 				A9A8BA3916F84FAA00D88422 /* UIView+Dim.m in Sources */,
+				A99AC1D616F994CE00979382 /* NSDate+Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
